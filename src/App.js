@@ -1,10 +1,17 @@
-import './App.css';
+import "./App.css";
+// import Modal from './Components/Modal/Modal'
+// import Accord from './Components/Accord/Accord'
+import Navbar from './componants/Navbar'
 
 function App() {
-  return (
-    <div className="App">
 
-    </div>
+
+  return (
+    <>
+      <Navbar />
+      {/* <Modal /> */}
+      {/* <Accord /> */}
+    </>
   );
 }
 
